@@ -58,12 +58,12 @@
 #about .btn {
    margin-top: 6px;
    background: #444;
-   color: white;
+   color: white !important;
    font-weight: bold;
 }
 #about .btn:hover {
    background: #fff;
-   color: #2B2B2B;
+   color: #2B2B2B !important;
 }
 #about .btn i {
    margin-right: 15px;
