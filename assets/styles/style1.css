@@ -101,17 +101,17 @@
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
-.content-section {
+.skills-section {
   padding-top: 7.5rem !important;
   padding-bottom: 7.5rem !important;
   background-color: #3f7fb7 !important;
 }
-.content-section-heading h3 {
+.skills-section-heading h3 {
   font-size: 2rem !important;
   text-transform: uppercase;
   font-weight: bold !important;
 }
-.content-section i {
+.skills-section i {
 	font-size: 5rem !important;
 }
 .contact-section {
@@ -139,4 +139,11 @@
 .footer-copyright {
   color: white;
   background-color: #3f7fb7;
+}
+
+#download-wrapper a {
+  color: white!important;
+}
+#download-wrapper a:hover {
+  color: black!important;
 }
