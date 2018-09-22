@@ -2,6 +2,11 @@
 	color: #3f7fb7 !important;
 	font-size: 2rem;
 }
+.navbar.fixed-top.scrolled {
+  background-color: #f8f9fa !important;
+  transition: background-color 100ms linear;
+  border-bottom: #3f7fb7 2px solid;
+}
 #home {
 	background-image: url('../img/web-1.jpg');
 	background-size: cover;

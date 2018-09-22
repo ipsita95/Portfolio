@@ -199,8 +199,14 @@
     <script src="assets/js/vendors/bootstrap/bootstrap.min.js"></script>
     <script src="assets/js/vendors/bootstrap/holder.min.js"></script>
     <script>
-      $('body').scrollspy({
+     $('body').scrollspy({
         target: '#mainNav'
+      });
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".navbar");
+          $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        });
       });
     </script>
   </body>
