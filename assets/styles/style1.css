@@ -135,7 +135,10 @@
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
-
+.contact-section i {
+  font-size: 2rem;
+  color: #3f7fb7;
+}
 .contact-section .card hr {
   border-color: #3f7fb7;
   border-width: 0.25rem;
