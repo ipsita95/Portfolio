@@ -36,11 +36,21 @@
              <li class="nav-item">
               <a class="nav-link" href="#resume">Resume</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+             <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#projects">Projects
+              <div id="sidebar">
+              <div class="toggle-btn" onmouseover="toggleSidebar(this)">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div> 
+            <div class="list">
+                <a href="https://github.com/ipsita95/Quotes.git" class="item"></a>
+              </div>
+            </a>
             </li>
           </ul>
         </div>
@@ -208,6 +218,9 @@
           $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
         });
       });
+      function toggleSidebar(ref){
+        document.body.classList.toggle('sidebar-active');
+      }
     </script>
   </body>
 </html>
