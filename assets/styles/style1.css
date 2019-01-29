@@ -27,8 +27,11 @@
     background-color: #3f7fb7;
 }
 #link {
+  font-size: 2rem;
+}
+#to-do {
   top: 150px;
-  background-color: #00839b;
+  background-color: #3FB5F4; 
 }
 #home {
 	background-image: url('../img/web-1.jpg');
